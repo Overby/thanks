@@ -11,3 +11,6 @@ HEX
 
 70,140,176
 RGB
+
+Font: Neutra (https://www.fontyukle.net)
+ Other font: Serifa (and its variations--same website)
