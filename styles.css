@@ -162,13 +162,11 @@ input[type=submit]:active {
 }
 
 
-
-/* HEADER */
-/* ----------------------------------------------- */
+/*---HEADER---*/
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    /*background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(frostedhillside.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/frostedhillside.jpg);  */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -190,14 +188,6 @@ header {
     width: auto;
     float: left;
     margin-top: 20px;
-}
-
-.logo-black { 
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
 }
 
 
@@ -268,7 +258,7 @@ header {
 
 /*---SIGN UP---*/
 
-.section-plans {
+.section-plans join {
     background-color: #f4f4f4;
 }
 
@@ -320,6 +310,33 @@ header {
 .plan-box ul li {
     padding: 5px 0;
 }
+
+/*---FORM---*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
 
 
 /*---FOOTER---*/
