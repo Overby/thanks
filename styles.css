@@ -420,7 +420,11 @@ footer {
 
 .footer-nav {
     list-style: none;
-    float: left;
+    float: center;
+    letter-spacing: normal;
+    padding-bottom: 25px;
+    margin: 5;
+    
 }
 
 .footer-nav li a:hover,
