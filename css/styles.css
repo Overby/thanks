@@ -8,7 +8,7 @@
 html,
 body {
     background-color: #fff;
-    color: #555;
+    color: #fff;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -53,7 +53,7 @@ h3 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #000;
+    color: #fff;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -169,7 +169,8 @@ header {
  /* background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image(frostedhillside.jpg);
     
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/waterfall_rainbow.jpg); */
-
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(forest_streaming_light.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(forest_streaming_light.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -267,16 +268,21 @@ header {
 
 /*---FEATURES--*/
 
-.section-features .long-copy {
-    margin-bottom: 30px;
-    height: 20vh;
+.section-features {
+    color: darkgrey;
 }
 
+.section-features .long-copy {
+    margin-bottom: 25px;
+    height: 10vh;
+    color: darkgrey;
+}
 
 /*---HOW IT WORKS SECTION---*/
 
 .section-steps {
     background-color: #f4f4f4;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(dockonlakefront.jpg);
 }
 
 .steps-box {
@@ -333,10 +339,6 @@ header {
 
 /*---SIGN UP---*/
 
-.section-plans join {
-    background-color: #f4f4f4;
-}
-
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
@@ -388,7 +390,8 @@ header {
 
 
 /*---FORM---*/
-
+    
+}
 .contact-form {
     width: 60%;
     margin: 0 auto;
@@ -446,17 +449,11 @@ footer p {
 /*-----Quote---*/
 
 .section-quote {
-    /*
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(frostedhillside.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(frostedhillside.jpg);
-                /*put in the waterfall photo as backgroud here and see how it looks */
-    
     background-size: cover;  
-    background-color: lightgoldenrodyellow;
+    background-color: beige;
     color: darkblue;
     background-attachment: fixed;
-    height: 100vh;
-    background-position: center;
+    height: 70vh;
 }
 
 blockquote {
@@ -465,15 +462,16 @@ blockquote {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
+    background-position: left;
 }
 
-blockquote:before {
-    content: "\201C";
-    font-size: 500%;
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -5px;
+blockquote gertrude {
+    padding: 2%;
+    font-syle: italic;
+    line-height: 145%;
+    position:relative;
+    margin-top: 40px;
+    background-position: left;
 }
 
 cite {
@@ -483,10 +481,10 @@ cite {
 }
 
 cite img {
-    height: 45px;
+    height: 85px;
     border-radius: 50%;
     margin-right: 10px;
-    vertical-align: middle;
+    vertical-align: right;
 }
 
 
